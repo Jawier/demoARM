@@ -18,8 +18,10 @@
       },
       "properties": {
         "name": "demojawierplan"
-      },
-      {
+      }
+    },
+
+{
         "type": "Microsoft.Web/sites",
         "apiVersion": "2018-02-01",
         "name": "demoarmjawier",
@@ -35,7 +37,7 @@
           "name": "demoarmjawier",
           "serverFarmId": "[resourceId('Microsoft.Web/serverfarms/', 'demojawierplan')]"
         }
-      }
+      
     }
   ],
   "outputs": {}
